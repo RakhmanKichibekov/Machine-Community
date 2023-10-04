@@ -59,7 +59,7 @@ public class HomeFragment extends Fragment {
         users = db.getReference("users");
 
         View root = binding.getRoot();
-        String url = "https://firebasestorage.googleapis.com/v0/b/cars-5fe3d.appspot.com/o/images%2Fb66d8042-4619-4edd-a9b5-3e41f0cdddda?alt=media&token=74411d90-4f23-4022-98ef-b76f08c41210";
+        String url = "https://firebasestorage.googleapis.com/v0/b/cars-5fe3d.appspot.com/o/images%2Fphoto%201x1.jpg?alt=media&token=95aeb742-b7dd-4091-8927-0d4018fb58dd&_gl=1*1j6ksq1*_ga*MzQ4MjkyNTQyLjE2NzQzMjM2OTQ.*_ga_CW55HF8NVT*MTY5NjQxNjU2OS4xNDkuMS4xNjk2NDE3OTk0LjQ4LjAuMA..";
         imageView = binding.imageViewPushButton;
         Glide.with(getApplicationContext()).load(url).into(imageView);
         textName = binding.textViewName;
